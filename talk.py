@@ -7,7 +7,7 @@ import openai
 debug = True
 def synthesize_text(text, output_file):
     # Set up OpenAI API credentials
-    openai.api_key = "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"
+    openai.api_key = ""
 
     client = texttospeech.TextToSpeechClient()
 
